@@ -1,0 +1,222 @@
+/*
+
+My Custom CSS
+=============
+
+Author:    Ang Siew Hong (P7043360)
+Completed: 07 Jan 2018
+Notes:	  CA02 Assignment
+
+*/
+
+/* --------------------------------------
+   Global Style
+   -------------------------------------- */
+body {
+   color: #442413;
+}
+
+/* --------------------------------------
+   Layout - index.html
+   -------------------------------------- */
+.jumbotron.jumbotron-fluid {
+   position: relative;
+   background: white;
+}
+.jumbotron.jumbotron-fluid h1 {
+   position: absolute;
+   bottom: 2.5rem;
+   left: 0.8rem;
+   z-index: 10;
+   color: #442413;
+   font-size: 1.3rem;
+}
+
+/* --------------------------------------
+   Layout - sensorial.html
+   -------------------------------------- */
+.jumbotron.jumbotron-fluid.subpage div {
+   position: absolute;
+   bottom: 3rem;
+   left: 0.8rem;
+   z-index: 10;
+   color: #442413;
+}
+.jumbotron.jumbotron-fluid.subpage div h2 {
+   font-size: 1.8rem;
+}
+.jumbotron.jumbotron-fluid.subpage div p {
+   font-size: 1.2rem;
+}
+a.btn.btn-grade {
+   background: #A37D68;
+   color: #442413;
+}
+a.btn.btn-grade-active {
+   background: #EC8249;
+   color: #442413;
+}
+
+/* --------------------------------------
+   Layout - contact.html
+   -------------------------------------- */
+.contact-info {
+   color: #442413;
+}
+button.btn.btn-send {
+   background: #D1BBAF;
+}
+span.required-input {
+   color: red;
+   font-weight: bold;
+}
+div.contact-form {
+   border-left: 1px solid #ced4da;
+}
+
+/* --------------------------------------
+   Layout - product detail
+   -------------------------------------- */
+nav.product-breadcrumb .breadcrumb {
+   background: #EDE5E1;
+   border-radius: 0;
+}
+.product-desc h2, .product-desc p, .breadcrumb-item a {
+   color: #442413;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+header {
+   background: #442413;
+}
+.navbar-nav .nav-link {
+   color: ivory;
+}
+.navbar-toggler {
+   border: 1px solid ivory;
+}
+
+/* --------------------------------------
+   Cards
+   -------------------------------------- */
+img.card-img-top {
+   height: 200px;
+   width: auto;
+}
+div.card-body h4, div.card-body p {
+   color: #442413;
+}
+div.card {
+   box-shadow: 8px 10px 10px -10px #442413;
+}
+a.btn.btn-details {
+   background: #C2AEA4;
+   color: #442413;
+}
+a.btn.btn-shopping {
+   background: #442413;
+   color: ivory;
+}
+
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+footer {
+   background: #D1BBAF;
+}
+.social-media a, .footer-links a {
+   color: #442413;
+}
+div.copyright {
+   text-align: center;
+   background: #7F675A;
+   color: ivory;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+   .jumbotron.jumbotron-fluid h1 {
+      position: absolute;
+      bottom: 4.5rem;
+      left: 0.8rem;
+      z-index: 10;
+      color: #442413;
+      font-size: 1.5rem;
+   }
+   .jumbotron.jumbotron-fluid.subpage div {
+      bottom: 5rem;
+      left: 1.2rem;
+   }
+   .jumbotron.jumbotron-fluid.subpage div h2 {
+      font-size: 2.5rem;
+   }
+   .jumbotron.jumbotron-fluid.subpage div p {
+      font-size: 1.2rem;
+   }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   .jumbotron.jumbotron-fluid h1 {
+      bottom: 7rem;
+      left: 2rem;
+      font-size: 2rem;
+   }
+   .jumbotron.jumbotron-fluid.subpage div {
+      bottom: 2.5rem;
+      left: 1.5rem;
+   }
+   .jumbotron.jumbotron-fluid.subpage div h2 {
+      font-size: 2rem;
+   }
+   .jumbotron.jumbotron-fluid.subpage div p {
+      font-size: 0.9rem;
+   }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+   .jumbotron.jumbotron-fluid h1 {
+      bottom: 9.5rem;
+      left: 3rem;
+      font-size: 2.5rem;
+   }
+   .jumbotron.jumbotron-fluid.subpage div {
+      bottom: 4.5rem;
+      left: 2.3rem;
+   }
+   .jumbotron.jumbotron-fluid.subpage div h2 {
+      font-size: 2.5rem;
+   }
+   .jumbotron.jumbotron-fluid.subpage div p {
+      font-size: 1rem;
+   }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+   .jumbotron.jumbotron-fluid h1 {
+      bottom: 13rem;
+      left: 5rem;
+      font-size: 3rem;
+   }
+   .jumbotron.jumbotron-fluid.subpage div {
+      bottom: 7rem;
+      left: 2.5rem;
+   }
+   .jumbotron.jumbotron-fluid.subpage div h2 {
+      font-size: 3rem;
+   }
+   .jumbotron.jumbotron-fluid.subpage div p {
+      font-size: 1.2rem;
+   }
+}

@@ -1,0 +1,46 @@
+/*
+
+My Custom CSS
+=============
+
+Author:    Ang Siew Hong (P7043360)
+Completed: 07 Feb 2018
+Notes:    CA03 Assignment
+
+*/
+
+.admin_header, .admin_footer {
+   background: #442413;
+   color: ivory;
+   font-weight: bold;
+   text-align: center;
+   padding: 1em;
+}
+
+.btn.btn-block {
+   background: #C2AEA4;
+   color: #442413;
+}
+
+/* Errors */
+
+.errors {
+  border: 2px solid red;
+  color: red;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.errors ul {
+  margin-bottom: 0;
+  padding-left: 1em;
+}
+
+/* Session Messages */
+
+#message {
+  color: #0055DD;
+  background: white;
+  border: 2px solid #0055DD;
+  padding: 1em;
+}
